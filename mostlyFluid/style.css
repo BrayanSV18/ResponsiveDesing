@@ -10,35 +10,41 @@ html {
 
 .container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  max-width: 1300px;
+  padding: 3rem;
+  margin: 0 auto;
 }
 
-.c1,
-.c2,
-.c3,
-.c4,
-.c5 {
+.c {
   width: 100%;
   min-width: 150px;
-  height: 150px;
+  height: calc(17vh - 1rem);
+  margin-bottom: 3rem;
+  border-radius: 10px;
 }
 
 .c1 {
-  background-color: brown;
+  background-color: #c72929;
 }
 
 .c2 {
-  background-color: blueviolet;
+  background-color: #df6060;
 }
 
 .c3 {
-  background-color: blue;
+  background-color: #e4b342;
 }
 
 .c4 {
-  background-color: black;
+  background-color: #a0db32;
 }
 
 .c5 {
-  background-color: aqua;
+  background-color: #43d39c;
+}
+.c6 {
+  background-color: #43b6d3;
+  margin: 0;
 }
